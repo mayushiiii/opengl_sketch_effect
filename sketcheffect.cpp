@@ -1,4 +1,4 @@
-﻿#include "./sketcheffect.h"
+#include "lab_m2/Tema2/tema2.h"
 
 #include <vector>
 #include <iostream>
@@ -357,7 +357,7 @@ void Tema2::OnKeyPress(int key, int mods)
         cout << "Processing on GPU: " << (gpuProcessing ? "true" : "false") << endl;
     }
 
-    if (key - GLFW_KEY_0 >= 0 && key <= GLFW_KEY_8)
+    if (key - GLFW_KEY_0 >= 0 && key <= GLFW_KEY_9)
     {
         outputMode = key - GLFW_KEY_0;
 
