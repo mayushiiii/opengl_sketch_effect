@@ -1,4 +1,4 @@
-#include "lab_m2/Tema2/tema2.h"
+#include "sketcheffect.h"
 
 #include <vector>
 #include <iostream>
